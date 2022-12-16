@@ -93,41 +93,27 @@ h1{
     background-color: #D6E4E5;
     text-align: center;
 }
-.cuadro1{
-    position: absolute;
-    width: 404px;
-    height: 631px;
-    left: 825px;
-    top: 211px;
-    text-align: center;
-    background: #EFF5F5;
-    border-radius: 15px;
-}
-.imagen{
-    background: url('./imagenes/imagen_perfil.jpg') no-repeat;
-    background-size: cover;
+img{
     position: relative;
-    
-    display: flex;
-    flex-flow: row;
     width: 393.84px;
     height: 393.84px;
     left: 228px;
-    top: 344.66px;  
-    border: 6.79043px solid #34595E;
+    top: -300.66px;  
+    border: 7px solid #34595E;
     backdrop-filter: blur(2px);
     /* Note: backdrop-filter has minimal browser support */
 
     border-radius: 196.922px;
     transform: rotate(-0.68deg)
 }
-.cuadro_texto{
-    position: absolute;
-    width: 942px;
-    height: 631px;
-    left: 249px;
-    top: 326px;
-
+.card{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    left: 700px;
+    top: 226px;
+    text-align: center;
+    
     background: #EFF5F5;
     border-radius: 15px;
 }
